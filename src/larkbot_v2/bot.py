@@ -73,7 +73,7 @@ class LarkLKMLBot(object):
                     {
                         "email": email,
                         "title": entry.title,
-                        "link": entry.link,
+                        "url": entry.link,
                     }
                 )
             else:
@@ -82,7 +82,7 @@ class LarkLKMLBot(object):
                         "user_id": user_id,
                         "email": email,
                         "title": entry.title,
-                        "link": entry.link,
+                        "url": entry.link,
                     }
                 )
 
